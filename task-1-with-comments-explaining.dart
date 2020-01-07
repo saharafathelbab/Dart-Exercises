@@ -11,26 +11,25 @@ findName(String name){
   
   var friendList = ['mike', 'susan'];
   
-// check if the name in the argument exists in the list above; if the name is not in the list the number returned is -1
-// which is less than 0
+// check if the name in the argument exists in the list above by using .contains
+
   
-  if(friendList.indexOf(name) < 0){ 
-    
-    // if the name does not exist then the name is added to the list
-    
-    
-    friendList.add(name);
-    
-    // prints out a standard greeting hi {username} to console
-    
-    print('hello ' + name);
-    
-  }else{
+  if(friendList.contains(name)){ 
     
     // if the name is in the list, then the greeting is different because they are in our friends list; 
     // prints 'hi {username} great to see you!' to console
     
     print('hi ' + name + ' great to see you!'); 
+    
+  }else{
+    
+    // if the name is not in the list, then the greeting is different
+    // prints out a standard greeting hi {username} to console
+    
+    // small aside: if the name does not exist in the list then the name *could* be added to the list, if we wanted to add the name we could do: friendList.add(name);
+    
+    
+    print('hello ' + name);
   }
   
   // prints out the array of names
