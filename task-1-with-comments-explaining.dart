@@ -40,24 +40,3 @@ void main() {
   findName(name);
   
 }
-
-
-
-//code without commentary
-
-findName(String name){
-  var list = ['mike', 'susan'];
-  if(list.indexOf(name) < 0){
-    list.add(name);
-  }
-  
-  print('hello ' + name);
-  print(list);
-  
-}
-
-void main() {
-  var name = "jack";
-  findName(name);
-  
-}
