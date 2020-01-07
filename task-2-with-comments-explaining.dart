@@ -19,18 +19,3 @@ void main() {
   findWages(worked,rate); // call our above function with our varaibles we declard above, worked and rate.
   
 }
-
-
-//code without commentary in between
-
-findWages(int hoursWorked, double hourlyRate){
-  print(hoursWorked * hourlyRate);
-  
-}
-
-void main() {
-  int worked = 10;
-  double rate = 22.45;
-  findWages(worked,rate);
-  
-}
