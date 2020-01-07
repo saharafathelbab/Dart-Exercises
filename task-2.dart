@@ -21,7 +21,7 @@ void main() {
 }
 
 
-//code without commenary
+//code without commentary in between
 
 findWages(int hoursWorked, double hourlyRate){
   print(hoursWorked * hourlyRate);
