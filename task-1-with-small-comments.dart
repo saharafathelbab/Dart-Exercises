@@ -3,7 +3,7 @@ findName(String name){
   if(friendList.contains(name){ 
     print('hi ' + name + ' great to see you!'); //if name is in list, they get a different greeting
   }else{
-    print('hello ' + name); // if name is not in list, they get a standard greeting 'hi {username}'
+    print('hello ' + name); // if name is not in list, they get a standard greeting 'hi {username}' because not in friend list
   }
   
   print(friendList);
