@@ -3,30 +3,38 @@
 // list, add to list and then print out greeting to user. Use a list to store your friends list and check if the user's name
 // exists in yout friends list.
 
+
 //create a fuction that can take a string as an argument
 findName(String name){
-
-//create a list with a couple of names i.e. the friends list
-
-  var list = ['mike', 'susan'];
+  
+  //create a list with a couple of names i.e. the friends list
+  
+  var friendList = ['mike', 'susan'];
   
 // check if the name in the argument exists in the list above; if the name is not in the list the number returned is -1
 // which is less than 0
-
-  if(list.indexOf(name) < 0){
   
-// if the name does not exist then the name is added to the list
-
-    list.add(name);
+  if(friendList.indexOf(name) < 0){ 
+    
+    // if the name does not exist then the name is added to the list
+    
+    
+    friendList.add(name);
+    
+    // prints out a standard greeting hi {username} to console
+    
+    print('hello ' + name);
+    
+  }else{
+    
+    // if the name is in the list, then the greeting is different because they are in our friends list; 
+    // prints 'hi {username} great to see you!' to console
+    
+    print('hi ' + name + ' great to see you!'); 
   }
   
-// prints a greeting to console 
-
-  print('hello ' + name);
-  
-// prints your list array
-
-  print(list);
+  // prints out the array of names
+  print(friendList);
   
 }
 
@@ -35,8 +43,8 @@ findName(String name){
 void main() {
   var name = "jack";
   
-// we call our function above, findName, with the above variable name as the argument
-
+  // we call our function above, findName, with the above variable name as the argument
+  
   findName(name);
   
 }
