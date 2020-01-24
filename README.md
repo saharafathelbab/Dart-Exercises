@@ -9,3 +9,6 @@ the user's name exists in your friends list.
 #### Dart Exercise 2
 Write a function that accepts an hourly rate as a floating point number, and number of hours worked, then return the wages
 earned.
+
+#### Dart Exercise 3
+Modify week 1's first task to return customized greetings for each friend. E.g for friend shumia, return "hi amazing shumia", for friend Dawn, return "Hi Wonderfilled dawn" etc.
