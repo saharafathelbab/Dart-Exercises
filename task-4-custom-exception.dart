@@ -26,7 +26,7 @@ void main() {
   try{
     findWages(worked,rate);
   } on Zero catch (e){
-  // we are now calling the property messgae which we defined above on the exception we caught
+  // we are now calling the property message which we defined above on the exception we caught
     print(e.message);
   } 
  
