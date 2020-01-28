@@ -12,3 +12,6 @@ earned.
 
 #### Dart Exercise 3
 Modify week 1's first task to return customized greetings for each friend. E.g for friend shumia, return "hi amazing shumia", for friend Dawn, return "Hi Wonderfilled dawn" etc.
+
+#### Dart Exercise 4
+Modify week 1's second task to throw and exception if the function receives a hoursWorked or rate per hour value of zero or less. Write code to catch the exception as well.
