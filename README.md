@@ -15,3 +15,12 @@ Modify week 1's first task to return customized greetings for each friend. E.g f
 
 #### Dart Exercise 4
 Modify week 1's second task to throw and exception if the function receives a hoursWorked or rate per hour value of zero or less. Write code to catch the exception as well.
+
+#### Dart Exercise 5
+Write a class modeling a car with necessary attributes e.g. color, class, model, year, mileage etc. and methods e.g kickStart, changeGear, accelerae, decelerate/break, turnOnLights, openDoor etc.
+
+Also determine the attributes and methods that need to be private, public, protected.
+
+Model another class for your favorite car type that inherits from the base car type. Change the required attributes eg model, year etc. and override some methods that might require a different implementation for your favorite car type.
+
+You can also add new attributes and methods specific to your favorite car type.
