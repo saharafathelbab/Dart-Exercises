@@ -101,19 +101,18 @@ class Audi extends Automobile{
 void main() {
 
   var aCar = new Audi();
-  
-  if(aCar is Automobile){
-    aCar.carColor = "silver";
-    aCar.carModel = "Audi Q3";
-    aCar.carYear = 2020;
-    aCar.mileage = 200000;
-    aCar.turnOnLights(false);
-    aCar.turnOnLights(true);
-    aCar.accelerate();
-    aCar.theHighbeam(true);
-    aCar.carDoor("close");
-    aCar.theBreak();
-    aCar.changeGear("Park");
-  }
+
+  aCar.carColor = "silver";
+  aCar.carModel = "Audi Q3";
+  aCar.carYear = 2020;
+  aCar.mileage = 200000;
+  aCar.turnOnLights(false);
+  aCar.turnOnLights(true);
+  aCar.accelerate();
+  aCar.theHighbeam(true);
+  aCar.carDoor("close");
+  aCar.theBreak();
+  aCar.changeGear("Park");
+ 
   
 }
